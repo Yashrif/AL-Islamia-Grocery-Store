@@ -1,0 +1,147 @@
+/* 
+-FONT SIZE SYSTEM (px)
+10 / 12 / 14 / 16 / 18 / 20 / 24 / 30 / 36 / 44 / 52 / 62 / 74 / 86 / 98 
+
+
+- SPACING SYSTEM (px)
+2 / 4 / 8 / 12 / 16 / 24 / 32 / 48 / 64 / 80 / 96 / 128
+*/
+
+/* 1184 */
+
+@media (max-width: 74em) {
+  .heading-primary {
+    font-size: 3.6rem;
+    margin-bottom: 2.4rem;
+  }
+
+  .cta-text {
+    font-size: 1.6rem;
+    margin-bottom: 2.4rem;
+  }
+}
+
+/* 1000 */
+
+@media (max-width: 62.5em) {
+  .container {
+    padding: 0 2.4rem;
+  }
+
+  .cta-text-box {
+    padding: 3.2rem 4.8rem 4.8rem 4.8rem;
+  }
+}
+
+/* 864 */
+
+@media (max-width: 54em) {
+  main {
+    margin: 12.8rem 0;
+  }
+
+  .heading-primary {
+    font-size: 2.8rem;
+    margin-bottom: 1.6rem;
+  }
+
+  .cta-text {
+    font-size: 1.4rem;
+    line-height: 1.4;
+    margin-bottom: 1.6rem;
+  }
+
+  .cta-text-box {
+    padding: 2.4rem 3.6rem 3.6rem 3.6rem;
+  }
+
+  .cta-form {
+    row-gap: 1.6rem;
+    column-gap: 2.4rem;
+  }
+
+  .cta-form div {
+    row-gap: 0.8rem;
+  }
+
+  .cta-form label {
+    font-size: 1.4rem;
+    line-height: 1.4;
+  }
+
+  .cta-form input,
+  .cta-form select {
+    padding: 0.8rem;
+    font-size: 1.4rem;
+  }
+
+  .cta-checkbox {
+    column-gap: 1.6rem;
+  }
+
+  #agree {
+    height: 0.8rem;
+    width: 0.8rem;
+  }
+
+  .btn {
+    font-size: 1.4rem;
+    padding: 0.8rem 1.6rem;
+  }
+
+  .customer-table thead th {
+    font-size: 1.6rem;
+  }
+
+  .customer-table tbody td {
+    font-size: 1.4rem;
+  }
+}
+
+/* 680 */
+
+@media (max-width: 43em) {
+  main {
+    margin: 3.6rem 0;
+  }
+
+  .section-cta {
+    grid-template-columns: 5fr 3fr;
+  }
+
+  .cta-form {
+    grid-template-columns: 1fr;
+  }
+
+  .cta-text-box {
+    padding: 2.4rem 4.8rem 3.2rem 4.8rem;
+  }
+
+  .cta-btn {
+    width: 100%;
+  }
+
+  .customer-table thead th {
+    font-size: 1.4rem;
+    padding: 1.2rem 0;
+  }
+
+  .customer-table tbody td {
+    padding: 1.2rem 0;
+    font-size: 1.2rem;
+  }
+}
+
+/* 550 */
+
+@media (max-width: 35em) {
+  .section-cta {
+    grid-template-columns: 1fr;
+    row-gap: 0;
+  }
+
+  .cta-img-box {
+    height: 32rem;
+    grid-row: 1/-1;
+  }
+}

@@ -1,0 +1,108 @@
+.section-table {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  width: 85vw;
+}
+
+.heading-primary {
+  color: #226e32 !important;
+}
+
+.customer-table {
+  width: 100%;
+  border: none;
+  border-collapse: collapse;
+  box-shadow: 0 0.8rem 1.2rem rgba(0, 0, 0, 0.15);
+  margin-bottom: 3.2rem;
+  border-radius: 1.1rem;
+}
+
+.customer-table thead tr {
+  background: linear-gradient(135deg, #51cf66, #37b24d);
+  transition: all 0.3s;
+}
+
+/* .customer-table thead {
+  background: linear-gradient(
+    135deg,
+    rgba(107, 219, 126, 0.25),
+    rgba(47, 158, 68, 0.65)
+  );
+} */
+
+.customer-table thead th {
+  width: 25%;
+  font-size: 1.8rem;
+  /* color: #333; */
+  color: #fff;
+  font-weight: 600;
+  padding: 2rem 0;
+}
+
+.customer-table thead th:first-child {
+  border-top-left-radius: 1.1rem;
+}
+
+.customer-table thead th:last-child {
+  border-top-right-radius: 1.1rem;
+}
+
+.customer-table tbody {
+  text-align: center;
+}
+
+.customer-table tbody td {
+  padding: 2rem 0;
+  font-size: 1.6rem;
+}
+
+.customer-table tr {
+  transition: all 0.3s;
+}
+
+.customer-table tr:hover {
+  transform: scale(1.03);
+}
+
+.customer-table tr:nth-child(odd):hover {
+  box-shadow: 0 0.8rem 1.2rem rgba(0, 0, 0, 0.15);
+}
+
+.customer-table tr:nth-child(even):hover {
+  box-shadow: 0 0.8rem 1.2rem rgba(0, 0, 0, 0.15);
+}
+
+.customer-table thead tr:hover {
+  border-top-left-radius: 1.1rem;
+  border-top-right-radius: 1.1rem;
+  box-shadow: 0 0.8rem 1.8rem rgba(47, 158, 67, 0.695);
+
+  /* background: linear-gradient(135deg, #ebfbee, #51cf66); */
+}
+
+.customer-table tbody tr:last-child:hover {
+  border-bottom-left-radius: 1.1rem;
+  border-bottom-right-radius: 1.1rem;
+}
+
+.customer-table tbody tr:nth-child(odd) {
+  background-color: #fefefe;
+}
+
+.customer-table tbody tr:nth-child(even) {
+  background-color: #e9ecef;
+}
+
+.customer-table tbody tr:last-child td:first-child {
+  border-bottom-left-radius: 1.1rem;
+}
+
+.customer-table tbody tr:last-child td:last-child {
+  border-bottom-right-radius: 1.1rem;
+}
+
+.table-btn {
+  background: linear-gradient(135deg, #51cf66, #37b24d);
+}
